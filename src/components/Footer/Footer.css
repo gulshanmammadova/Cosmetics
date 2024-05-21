@@ -1,0 +1,16 @@
+.footer-content hr{
+    margin: 18px 0;
+    color: rgb(209, 209, 209);
+    /* width: 94%; */
+}
+.footer-content{
+    width: 92%;
+    margin: 10px auto;
+}
+.footer-content p{
+    color:rgb(155, 149, 149);
+}
+.footer-rights{
+    color: rgb(205, 205, 205);
+
+}

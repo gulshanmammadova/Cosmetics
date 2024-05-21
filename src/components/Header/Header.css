@@ -1,0 +1,18 @@
+.w-92{
+    width: 92%;
+    margin: 0 auto;
+}
+.header-login{
+    color:white;
+    transition: 0.3s;
+}
+.header-top-content{
+    background-color: #1E1E1E;
+}
+.header-login:hover{
+    color: red;
+    font-weight: bold;
+}
+.white-i{
+    color: white;
+}
