@@ -1,18 +1,104 @@
 .w-92{
     width: 92%;
     margin: 0 auto;
+      display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 4px;
 }
 .header-login{
     color:white;
     transition: 0.3s;
 }
 .header-top-content{
-    background-color: #1E1E1E;
+    color: white;
+  
 }
-.header-login:hover{
+.header-content{
+    background-color: #592B2A;
+
+}
+/* .header-login:hover{
     color: red;
     font-weight: bold;
-}
+} */
 .white-i{
     color: white;
+}
+.right-10{
+    padding: 8px 0 0 0  ;
+    margin-right: 10px;
+}
+.header-top-content-left span{
+    font-size: 14px;
+    font-weight: 500;
+}
+.header-top-content-left{
+    display: flex;
+    justify-content: space-between;
+    width: 29%;
+}
+.margin-12{
+    margin: 0 12px;
+}
+.header-content-bottom{
+    
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://elementor-kits-02.nicdark.com/perfume-wordpress-elementor-kit/wp-content/uploads/sites/4/2024/01/bg-06.jpg);
+}
+.logo{
+    width: 140px;
+    height: 49px;
+}
+.width-92{
+    width: 92%;
+    margin: 0 auto;
+}
+.bottom-center{
+    font-size: 12px;
+    color: #592B2A;
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    font-weight: 700;
+}
+.bottom-center span{
+    transition: 0.3s;
+        letter-spacing: 2px;
+
+}
+.bottom-center span:hover{
+    color: black;
+}
+.count-of-basket{
+    color: white;
+    background-color: #000;
+    font-size: 10px;
+    padding: 4px 6px;
+    position: absolute;
+    top: -10px;
+    left: 16px;
+    border-radius: 48%;
+    transition: 0.3s;
+}
+.count-of-basket:hover{
+    color: #592B2A;
+    background-color: white;
+}
+.basket-icon{
+    color: #592B2A;
+    font-size: 23px;
+}
+.bottom-right{
+    position: relative;
+    width: 7%;
+
+}
+
+.header-bottom-all{
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
 }
