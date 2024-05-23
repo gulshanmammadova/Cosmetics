@@ -6,7 +6,6 @@ import { WishlistProvider, useWishlist } from "react-use-wishlist";
 import Pagination from 'react-bootstrap/Pagination';
 const ProductCard = ({ prod }) => {
   const { addItem } = useCart();
-  
   const { addWishlistItem } = useWishlist();
   const { inWishlist } = useWishlist();
   return (
