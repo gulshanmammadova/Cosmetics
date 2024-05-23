@@ -1,10 +1,11 @@
-.w-92{
+.header-content .w-92{
     width: 92%;
     margin: 0 auto;
       display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 4px;
+    padding: 0 0 4px 0;
+    
 }
 .header-login{
     color:white;
@@ -29,6 +30,38 @@
     padding: 8px 0 0 0  ;
     margin-right: 10px;
 }
+ul.user-options li a{
+    color: #592B2A !important;
+    border-color: #592B2A !important;
+    text-decoration: none !important;
+}
+.user-options {
+    display: none;
+    position: absolute;
+    top: 1px;
+    position: absolute;
+    top: 20px;
+    left: -16px;
+    z-index: 9999999999999999999999999999999999;
+  }
+  .u-settings{
+    position: relative;
+  }
+  .u-settings:hover .user-options {
+    display: block;
+  }
+  .user-options li {
+    list-style-type: none;
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+  }
+  
+  .user-options li:hover {
+    background-color: #f0f0f0;
+  }
 .header-top-content-left span{
     font-size: 14px;
     font-weight: 500;
@@ -36,7 +69,7 @@
 .header-top-content-left{
     display: flex;
     justify-content: space-between;
-    width: 29%;
+    width: 32%;
 }
 .margin-12{
     margin: 0 12px;
@@ -55,12 +88,13 @@
     width: 92%;
     margin: 0 auto;
 }
-.bottom-center{
+.bottom-center,.bottom-center a{
     font-size: 12px;
     color: #592B2A;
     display: flex;
+    text-decoration: none;
     justify-content: space-between;
-    width: 20%;
+    width: 22%;
     font-weight: 700;
 }
 .bottom-center span{
@@ -86,16 +120,27 @@
     color: #592B2A;
     background-color: white;
 }
-.basket-icon{
+.basket-icon,
+.heart-icon{
     color: #592B2A;
     font-size: 23px;
 }
 .bottom-right{
+    display: flex;
+    align-items: center;
+}
+.heart-icon{
+    font-size: 23px;
+    margin-left: 15px;
+}
+.bottom-right{
     position: relative;
-    width: 7%;
+    width: 10%;
 
 }
-
+.header-all{
+    /* margin-top: -10px; */
+}
 .header-bottom-all{
     display: flex;
     padding: 20px 0;
