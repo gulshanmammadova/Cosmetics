@@ -15,8 +15,7 @@ const ProductCard = ({ prod }) => {
       </div>
       <div className="prod-info">
         <p className='prod-name font-cormor'>
-        <Link className='detail-prod' to={`${prod.product_link}`}
->
+        <Link className='detail-prod' to={`${prod.product_link}`}>
           {prod.name.length <= 25 ? prod.name : `${prod.name.substring(0, 25)}...`}
      </Link>
         </p>
@@ -31,5 +30,4 @@ const ProductCard = ({ prod }) => {
     </div>
   );
 };
-
 export default ProductCard;
