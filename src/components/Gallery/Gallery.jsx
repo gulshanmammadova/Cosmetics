@@ -27,7 +27,6 @@ const Gallery = () => {
             <div className="gallery-photo"><img src="https://elementor-kits-02.nicdark.com/perfume-wordpress-elementor-kit/wp-content/uploads/sites/4/2024/01/cropped-shot-of-woman-holding-bottle-of-perfume.jpg" alt="" /></div>
             <div className="gallery-photo x"><img src="https://elementor-kits-02.nicdark.com/perfume-wordpress-elementor-kit/wp-content/uploads/sites/4/2024/01/beautiful-girl-with-closed-eyes-and-a-flower-crown.jpg" alt="" /></div>
             <div className="gallery-photo"><img src="https://blogscdn.thehut.net/app/uploads/sites/2296/2020/04/Get-To-Know-The-Brand-Note-Cosmetics_1686219367.jpg" alt="" /></div>
-          
             <div className="gallery-photo name-info">
                 <p className='font-cormor name'>Emily Smit</p>
                 <p>General Manger</p>
