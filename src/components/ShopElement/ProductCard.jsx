@@ -16,11 +16,14 @@ const ProductCard = ({ prod }) => {
       <div className="prod-info">
         <p className='prod-name font-cormor'>
         <Link className='detail-prod' to={`${prod.product_link}`}>
-          {prod.name.length <= 25 ? prod.name : `${prod.name.substring(0, 25)}...`}
+        {
+            prod.name ?(prod.name.length <= 25 ? prod.name : `${prod.name.substring(0, 25)}...`):('New Collection Product')
+          }
+          {}
      </Link>
         </p>
         <p>
-          <span className='newprice font-cormo'>{prod.price}{prod.price_sign}</span>
+          <span className='newprice font-cormo'>{prod.price>0 ? (prod.price):(14.99)}{prod.price_sign ? (prod.price_sign):('$')}</span>
         </p>
       </div>
       <div className='add-buttons'>

@@ -16,6 +16,7 @@
   .wishlist-all{
     width: 25%;
     text-align: center;
+    min-height: 350px;
     margin: 25px auto;
     font-family: "Cormorant Garamond", serif;
 
