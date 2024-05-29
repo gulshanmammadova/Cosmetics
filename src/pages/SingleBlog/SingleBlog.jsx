@@ -132,7 +132,6 @@ const SingleBlog = () => {
         )}
       </div>
   <UpIcon/>
-
     </div>
   );
 };

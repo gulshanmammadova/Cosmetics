@@ -2,6 +2,7 @@ import React from 'react'
 import '../About/About.css'
 import Gallery from '../../components/Gallery/Gallery'
 import {Link} from 'react-router-dom'
+import UpIcon from '../../components/Up/UpIcon.jsx'
 const About = () => {
   return (
     <div>
@@ -21,7 +22,7 @@ const About = () => {
   Join us on this aromatic voyage, where every spray tells a story and every note resonates with the essence of beauty. Luxury, artistry, and the sublime world of perfumery converge to create an unforgettable experience for the senses.
   </p>
   
-    <Link to='about'><button className='get-more-info'>Get More Info</button></Link>
+    <Link to={{}}><button className='get-more-info'>Get More Info</button></Link>
 </div>
 <div className="about-1-img">
   <img src="https://elementor-kits-02.nicdark.com/perfume-wordpress-elementor-kit/wp-content/uploads/sites/4/2024/01/man-doing-shopping.jpg" alt="" />
@@ -79,7 +80,7 @@ const About = () => {
     </div>
   </div>
 </div>
-
+<UpIcon/>
     </div>
   )
 }

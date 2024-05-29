@@ -5,6 +5,7 @@ import sliderImg2 from '../../assets/Be-Beauty-4.png';
 import sliderImg1 from '../../assets/poster1.jpg';
 import MiniBlog from '../../components/Mini-blog/MiniBlog'
 import Gallery from '../../components/Gallery/Gallery'
+import UpIcon from '../../components/Up/UpIcon.jsx'
 const Home = () => {
   return (
     <div>
@@ -48,6 +49,7 @@ const Home = () => {
       <div className="mini-b">
   <Gallery/>
 </div>
+<UpIcon />
     </div>
   );
 }

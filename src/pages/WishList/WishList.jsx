@@ -32,7 +32,6 @@ const WishList = () => {
         ))}
       </ul>
   <UpIcon/>
-
     </div>
   )
 }

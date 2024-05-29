@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../Shop/Shop.css";
 import ShopList from "../../components/ShopElement/ShopList";
 import PropagateLoader from "react-spinners/PropagateLoader";
-
+import UpIcon from '../../components/Up/UpIcon.jsx'
 const Shop = () => {
   const [loading, setLoading] = useState(true);
   const [allData, setAllData] = useState(null);
@@ -116,7 +116,9 @@ const Shop = () => {
           )
         )}
       </div>
-      {console.log(allData)}
+      {/* {console.log(allData)} */}
+      <UpIcon />
+    
     </div>
   );
 };

@@ -15,6 +15,7 @@ import SingleBlog from './pages/SingleBlog/SingleBlog.jsx';
 import Home from './pages/Home/Home';
 import Login from './pages/Login/Login';
 import Register from './pages/Login/Register';
+import Error from './pages/Error/Error';
 
 function App() {
   
@@ -41,7 +42,7 @@ function App() {
           {/* <Route path="/proddetail/:id/:name/:brand/:category" element={<ProductDetail />} /> */}
 
           <Route path='/singleblog/:id' element={<SingleBlog/>}/>
-          {/* <Route path="*" element={<NoPage />} /> */}
+          <Route path="*" element={<Error />} />
       </Routes>
 <Footer/>
 </CartProvider>
